@@ -4,6 +4,9 @@ OBJS=main.o sort.o student.o utils.o
 
 all: clean build test
 
+srti : clean build test1
+srtn : clean build test2
+
 help:
 	@echo "The following options are provided with Make\n$$ make all \t# clean, build, test\n$$ make clean \t# clean files\n$$ make build \t# build program\n$$ make test \t# test cases"
 
