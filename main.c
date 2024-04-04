@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     { // [TODO] Fill in the condition
         fprintf(stderr, "Command should be format like below\n");
-        fprintf(stderr, "%s try/*_sort.in\n", argv[1]); // [TODO] Fill in the arguments
+        fprintf(stderr, "%s try/*_sort.in\n", argv[0]); // [TODO] Fill in the arguments
         exit(EXIT_FAILURE);
     }
 
